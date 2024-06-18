@@ -1,0 +1,142 @@
+.why-lease {
+    padding: 150px 0;
+  }
+  
+  .section-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  .why-lease__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    text-align: center;
+  }
+  
+  .why-lease__item-img {
+    height: 240px;
+    width: auto;
+    margin-bottom: 30px;
+  }
+  
+  .why-lease__item-title {
+    margin-bottom: 8px;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .why-lease__text {
+    font-size: 24px;
+  }
+  
+  .how-does {
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .how-does__inner {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section-title {
+    text-align: center;
+  }
+  
+  .how-does__text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .how-does__title {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .how-does__list {
+    padding: 0 50px 70px;
+    counter-reset: myCounter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .how-does__item {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
+    max-width: 1000px;
+    font-size: 24px;
+  }
+  
+  .how-does__item::before {
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--yellow);
+    font-size: 48px;
+    font-weight: 700;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .how-does__button {
+    max-width: 500px;
+    display: block; /* Change to block to make margin auto work */
+    margin: 20px auto; /* Center horizontally */
+    padding: 10px 20px; /* Add padding for better appearance */
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    background-color: black; /* Add background color */
+    border: none; /* Remove default border */
+    border-radius: 15px; /* Add border radius */
+    cursor: pointer; /* Change cursor on hover */
+    color: #fff;
+  }
+  
+  .how-does__button:hover {
+    background-color: var(--yellow); /* Change color on hover */
+    color: black;
+  }
+  
+  .video {
+      padding-bottom: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .video__title {
+      margin-bottom: 50px;
+    }
+    
+    .video__content {
+      max-width: 100%;
+      width: 1000px;
+      height: 500px;
+    }
+    
+  
+    
+  
+  

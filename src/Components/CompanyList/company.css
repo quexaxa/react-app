@@ -1,0 +1,13 @@
+.brands {
+    padding: 60px 0 50px;
+    background-color: var(--yellow);
+
+}
+
+.brands_list {
+    display: flex;
+    column-gap: 120px;
+}
+.brands_list img {
+    max-height: 200px;
+}

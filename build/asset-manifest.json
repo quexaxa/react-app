@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8ae29790.css",
+    "main.js": "/static/js/main.736d3cff.js",
+    "static/media/sber.png": "/static/media/sber.db7bcc8f0163d98b36e5.png",
+    "static/media/header-img.png": "/static/media/header-img.62d0e22f42bb9197856f.png",
+    "static/media/aboutCompany.png": "/static/media/aboutCompany.b6bf36dd77c0205539c3.png",
+    "static/media/domostroi.png": "/static/media/domostroi.2676f7bb8c0e2f3570cd.png",
+    "static/media/vtb.png": "/static/media/vtb.fe13022959134de067ba.png",
+    "static/media/experience.png": "/static/media/experience.e7c0719b0492f572728a.png",
+    "static/media/standartkgn.png": "/static/media/standartkgn.1f4d19a58e6612615ce5.png",
+    "static/media/clients.png": "/static/media/clients.c18657e7bb16f19cbb36.png",
+    "static/media/telegram.png": "/static/media/telegram.1b722a57c2ce8ff2980a.png",
+    "static/media/company.png": "/static/media/company.b3424711a51e65224fd0.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.96ae52a175f11ae27285.png",
+    "static/media/vk.png": "/static/media/vk.33ed0b7af35a111c4705.png",
+    "static/media/soc-strah.png": "/static/media/soc-strah.4308a4a31232e2004e84.png",
+    "index.html": "/index.html",
+    "static/media/decor-yellow.svg": "/static/media/decor-yellow.a14a51327547871fd595.svg",
+    "main.8ae29790.css.map": "/static/css/main.8ae29790.css.map",
+    "main.736d3cff.js.map": "/static/js/main.736d3cff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ae29790.css",
+    "static/js/main.736d3cff.js"
+  ]
+}

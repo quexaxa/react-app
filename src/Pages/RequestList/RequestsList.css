@@ -1,0 +1,29 @@
+.requests-list {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .requests-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .requests-list th, .requests-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .requests-list th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .requests-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .requests-list tr:hover {
+    background-color: #ddd;
+  }
+  

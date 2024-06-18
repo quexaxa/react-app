@@ -1,0 +1,24 @@
+:root {
+    --texColor: #000000;
+    --yellow: #EBD96B;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--texColor);
+}
+
+.container {
+    min-width: 1760px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.title-2 {
+    font-weight: 900;
+    font-size: 49px;
+    line-height: 1.04;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}

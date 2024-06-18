@@ -1,0 +1,22 @@
+/* src/components/ServiceCard.css */
+.service-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .service-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    margin-bottom: 5px;
+  }
+  
+  .service-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  

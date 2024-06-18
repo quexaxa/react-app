@@ -1,0 +1,121 @@
+.about-list__title {
+    font-size: 36px;
+    font-weight: 700;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .about-list {
+    padding: 0 50px 70px;
+    counter-reset: myCounter;
+    display: grid;
+    grid-template-columns: repeat(
+      5,
+      1fr
+    ); /* Создаем пять колонок одинаковой ширины */
+    gap: 40px; /* Расстояние между колонками и строками */
+    max-width: 100%;
+  }
+  
+  .about-list__item {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .about-list__item::before {
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--yellow);
+    font-size: 48px;
+    font-weight: 700;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 20px; /* Отступ между цифрой и текстом */
+  }
+  
+  .about-list__button {
+    max-width: 500px;
+    display: block; /* Сделаем блочным, чтобы margin auto работал */
+    margin: 20px auto; /* Центрируем по горизонтали */
+    padding: 10px 20px; /* Добавим отступы для лучшего вида */
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    background-color: black; /* Добавим фоновый цвет */
+    border: none; /* Уберем стандартную границу */
+    border-radius: 15px; /* Добавим скругление углов */
+    cursor: pointer; /* Изменим курсор при наведении */
+    color: #fff;
+  }
+  
+  .about-list__button:hover {
+    background-color: var(--yellow); /* Изменим цвет при наведении */
+    color: black;
+  }
+  
+  .about-power {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .about-power__title {
+    font-weight: 800;
+    font-size: 36px;
+  }
+  
+  .about-power__text {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  
+  .about-brands {
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  .about-brands__title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    padding-bottom: 20px;
+  }
+  
+  .end-btn {
+    padding: 25px 150px 150px 150px;
+  }
+  
+  .about-feedback__btn {
+    max-width: 500px;
+    display: block; /* Сделаем блочным, чтобы margin auto работал */
+    margin: 20px auto; /* Центрируем по горизонтали */
+    padding: 10px 20px; /* Добавим отступы для лучшего вида */
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    background-color: black; /* Добавим фоновый цвет */
+    border: none; /* Уберем стандартную границу */
+    border-radius: 15px; /* Добавим скругление углов */
+    cursor: pointer; /* Изменим курсор при наведении */
+    color: #fff;
+  }
+  
+  .about-feedback__btn:hover {
+    background-color: var(--yellow); /* Изменим цвет при наведении */
+    color: black;
+  }
+  

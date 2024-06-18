@@ -1,0 +1,35 @@
+.about-company-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center; /* Чтобы изображение и текст выровнялись по вертикали */
+  }
+  
+  .company-image {
+    width: 512px; /* Задаем фиксированную ширину изображения */
+    height: auto; /* Позволяет изображению сохранить пропорции */
+    margin-right: 100px; /* Добавляем небольшой отступ между изображением и текстом */
+    margin-left: -200px;
+    margin-top: 80px;
+  }
+  
+  .text-container {
+    flex: 1; /* Растягиваем текстовый контейнер на всю доступную ширину */
+    text-align: justify; /* Выравниваем текст по ширине */
+    min-width: 600px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  
+  .text-container h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .text-container p {
+    margin-top: 10px;
+    font-size: 28px;
+    line-height: 1.6;
+  }

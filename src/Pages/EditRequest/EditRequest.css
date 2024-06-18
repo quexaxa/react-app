@@ -1,0 +1,46 @@
+.edit-request {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-request h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.edit-request form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-request label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.edit-request textarea,
+.edit-request select {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.edit-request button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+}
+
+.edit-request button:hover {
+  background-color: #218838;
+}
